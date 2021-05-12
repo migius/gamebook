@@ -1,0 +1,105 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
+
+@font-face{
+  font-family: "PrinceValiant";
+  src: url("PrinceValiant.ttf") format("truetype");
+}
+
+body 
+{
+    background: black;
+    color: lightgrey;
+    font-family: palatino;
+}
+
+body h1
+{
+    font-family: PrinceValiant, palatino;
+}
+
+.minus, .plus  
+{
+    color: #ddd !important;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.minus 
+{
+    background: #f005;
+    border: #f00a;
+}
+
+.plus 
+{    
+    background: #6f05;
+    border: #6f0a;
+}
+
+
+div:first-child>.box-scala-data, div:last-child>.box-scala-data {
+}
+
+.box-status {
+    margin: 2% 10%;
+}
+
+
+body div#main
+{
+    text-align: center;
+}
+
+body div#main h1 {
+    font-size: 2rem;
+    margin: 20px 10px;
+}
+
+.box-status {
+    display: flex;
+    border: 2px solid lightgray;
+}
+
+.box-status>div {
+    width: 50%;
+    border: 1px dotted lightgray;
+    margin: 2px;
+}
+
+.titolo {
+    padding: 0px 10px;
+}
+
+.label-editing {
+    display: flex;
+    justify-content: center;
+}
+
+.box-scala {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-scala>div {
+    width: 100%;
+}
+
+.box-scala>div>div {
+    border: solid 1px grey;
+    white-space: break-spaces;
+}
+
+.box-testuale {
+    margin-top: 5%;
+    border: 2px double lightgrey;
+}
+
+.box-testuale>div {
+    margin-top: 1%;
+    border: 1px dotted lightgrey;
+}
+
+
+footer.footer.mt-auto.py-3 {
+    background-color: #ccc;
+}
