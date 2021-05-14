@@ -25,9 +25,9 @@
                     <div class="box-stats">
                         <div class="box-intuito">
                             <div class="label-editing">
-                                <button @click="addIntuito(-1)" v-visible="gameStats.intuito > minIntuito" class="btn btn-sm minus">-</button>
+                                <button @click="addIntuito(-1)" v-show="gameStats.intuito > minIntuito" class="btn btn-sm minus">-</button>
                                 <div class="titolo titolo-intuito">{{$t("intuito")}}</div>
-                                <button @click="addIntuito(1)" v-visible="gameStats.intuito < maxIntuito" class="btn btn-sm plus">+</button>
+                                <button @click="addIntuito(1)" v-show="gameStats.intuito < maxIntuito" class="btn btn-sm plus">+</button>
                             </div>
                             <div class="valore valore-intuito">{{gameStats.intuito}}</div>
                         </div>
