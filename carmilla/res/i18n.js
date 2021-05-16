@@ -28,7 +28,7 @@ const messages = {
             `Per aggiungere oggetti cliccare il quadrato oggetti, per rimuoverli basta cancellarne il nome.`,
             `Per aggiungere e rimouvere parole chiave e note utilizzare i tasti + e meno -.`,
             ``,
-            `I valori presenti nella scheda (e nessun altro dato) vengono salvati nel browser e quindi anche se la pagina viene chiusa e riaperta i dati restano salvati. Non è possibile scaricare o inviare i propri dati a un altro dispositivo, ma si possono copiare a mano.`,
+            `I valori presenti nella scheda (e nessun altro dato) vengono salvati nel browser e quindi anche se la pagina viene chiusa e riaperta i dati restano salvati. Non è possibile scaricare o inviare i propri dati a un altro dispositivo. Nessun dato viene inviato a server centrali, la partita rimarrà solo sul dispositivo utilizzato.`,
             `Se si vuole resettare i valori utilizzare il tasto 'inizia una nuova partita'.`]
         }
     },
