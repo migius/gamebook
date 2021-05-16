@@ -5,16 +5,21 @@
   src: url("PrinceValiant.ttf") format("truetype");
 }
 
-body 
-{
-    background: black;
+body {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 20%, rgba(0,0,0,0.5) 70%, rgba(0,0,0,1) 100%), url(img/old-graveyard.jpg);
     color: lightgrey;
     font-family: palatino;
+    background-size: cover;
+    background-position: center;
 }
 
 body h1
 {
     font-family: PrinceValiant, palatino;
+}
+
+.box-dark {
+    background-color: #0009;
 }
 
 .minus, .plus  
@@ -24,6 +29,11 @@ body h1
     font-family: sans-serif;
 }
 
+.btn.minus, .btn.plus  
+{
+    width: 30px;
+}
+    
 .minus 
 {
     background: #f005;
@@ -36,6 +46,12 @@ body h1
     border: #6f0a;
 }
 
+.titolo.mr-30 {
+    margin-right: 30px;
+}
+.titolo.ml-30 {
+    margin-left: 30px;
+}
 
 div:first-child>.box-scala-data, div:last-child>.box-scala-data {
 }
@@ -63,11 +79,18 @@ body div#main h1 {
 .box-status>div {
     width: 50%;
     border: 1px dotted lightgray;
-    margin: 2px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.list-item.list-oggetto {
+    text-align: left;
 }
 
 .titolo {
-    padding: 0px 10px;
+    padding: 0px 10px;    
+    font-size: larger;
+    font-weight: bolder;
 }
 
 .label-editing {
@@ -78,6 +101,10 @@ body div#main h1 {
 .box-scala {
     display: flex;
     justify-content: space-around;
+}
+
+.box-scala-label {
+    padding: 0px 4px;    
 }
 
 .box-scala>div {
@@ -97,9 +124,33 @@ body div#main h1 {
 .box-testuale>div {
     margin-top: 1%;
     border: 1px dotted lightgrey;
+    margin: 5px;
+    padding: 5px;
 }
 
-
+/*
 footer.footer.mt-auto.py-3 {
-    background-color: #ccc;
+    background-color: #1119;
+}
+*/
+
+.modal-content {
+    background-color: #444;
+}
+
+.modal-content a {
+    color: #fff;
+}
+
+.close {
+    color: #ddd;
+}
+
+.close:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.pre-formatted {
+  white-space: pre;
 }
