@@ -2,10 +2,10 @@
 <html lang=en style="height:100%;">
     <head>
         <meta charset=utf-8>
-        <title>Gamebook sheet</title>
+        <title>Carmilla. Il bacio del vampiro - Registro Laura</title>
         <meta charset="utf-8"/>
         <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"/>
-        <meta name=description content="virtual aid sheet for gamebook"/>
+        <meta name=description content="Scheda è di ausilio alla lettura del librogame 'Carmilla - Il bacio del vampiro' di Francesco Di Lazzaro edito da Watson Edizioni."/>
         <meta name=author content="migio"/>
         <meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -130,9 +130,7 @@
                                 </button>
                             </div>
                             <div class="modal-body">                
-                                <p v-for="item of $t('footer.howto_content')" >
-                                    {{item}}
-                                </p>
+                                <p v-html='$t("footer.howto_content")'>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary trasp-background" data-dismiss="modal" >{{$t("footer.close")}}</button>
@@ -151,18 +149,13 @@
                                 </button>
                             </div>
                             <div class="modal-body">                
-                                <p >
-                                    {{$t("footer.book_credits")}}
+                                <p v-html='$t("footer.book_credits")'>
                                 </p>            
-                                <p >
-                                    {{$t("footer.code_credits")}} <a href='https://github.com/migius/gamebook' target="_blak" >https://github.com/migius/gamebook</a>.
-                                </p>        
-                                <p>
-                                    {{$t("footer.bg_foto")}} <a href='https://www.freepik.com/photos/tree'  target="_blak">Tree photo created by wirestock - www.freepik.com</a>
-                                </p>      
-                                <p>
-                                    <a href="https://migio.altervista.org/contatti/" target="popup" >{{$t("footer.send_feedback")}}</a>
-                                </p>
+                                <a v-bind:href='$t("url_amazon")' target="_blank"><img src="res/img/Carmilla-2a.png" class="cover"></a>
+                            </iframe>
+                                <p v-html='$t("footer.code_credits")' />
+                                <p v-html='$t("footer.bg_foto")' />      
+                                <p v-html='$t("footer.send_feedback")' />
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary trasp-background" data-dismiss="modal" >{{$t("footer.close")}}</button>
