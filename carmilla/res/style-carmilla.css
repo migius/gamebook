@@ -1,0 +1,31 @@
+.box-sangue {
+    max-width: 100%;
+    width: 400px;
+}
+
+.box-sangue button {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.box-sangue-0 {    
+    background: linear-gradient(90deg, #5f0000c4 0%, #0009 25%, #0009 100%);
+}
+
+.box-sangue-1 {    
+    background: linear-gradient(90deg, #5f0000c4 0%, #5f0000c4 25%, #0009 50%, #0009 100%);
+}
+
+.box-sangue-2 {    
+    background: linear-gradient(90deg, #5f0000c4 0%, #5f0000c4 50%, #0009 75%, #0009 100%);
+}
+
+.box-sangue-3 {    
+    background: linear-gradient(90deg, #5f0000c4 0%, #5f0000c4 75%, #0009 100%);
+}
+
+.box-sangue-4 {    
+    background: linear-gradient(90deg, #5f0000c4 0%, #5f0000c4 100%);
+}
