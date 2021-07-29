@@ -33,7 +33,8 @@ var main = new Vue({
             //main menu
             this.menus.main_menu = new Menu("classic");
             this.menus.main_menu.items.push(new Item("carmilla_laura"));
-            this.menus.main_menu.items.push(new Item("carmilla_carmilla"));            
+            this.menus.main_menu.items.push(new Item("carmilla_carmilla"));    
+            this.menus.main_menu.items.push(new Item("eb_piramide_della_morte"));            
         },
         Click: function(item){
             window.location = this.$t('book.' + item.sigla + ".url");
