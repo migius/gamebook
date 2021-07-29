@@ -10,6 +10,10 @@ const messages = {
                 title: "Carmilla. Il bacio del vampiro - Sezione Carmilla",
                 url: "carmilla/carmilla.html?l=it"
             },
+            eb_piramide_della_morte: {
+                title: "La piramide della morte. Escape Book",
+                url: "escape-book-la-piramide-della-morte/index.html?l=it"
+            },
         },
     },
     en: {  
@@ -17,11 +21,11 @@ const messages = {
         book: {
             carmilla_laura: {
                 title: "Carmilla Laura todo",
-                url: "carmilla_laura?l=it"
+                url: "carmilla/laura.html?l=en"
             },
             carmilla_carmilla: {
                 title: "Carmilla todo",
-                url: "carmilla?l=it"
+                url: "carmilla/carmilla.html?l=en"
             },
         },
     },

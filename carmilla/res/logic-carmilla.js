@@ -134,7 +134,7 @@ var main = new Vue({
         loadFromLocalDB: function(){
             let data = JSON.parse(localStorage.getItem('GB_carmilla_carmilla'));
             if(data == null) {
-                this.startNewGame();
+                this.startNewGame(true);
             } else {
                 this.gameStats = data;
             }
