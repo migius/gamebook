@@ -34,6 +34,7 @@ var main = new Vue({
             this.menus.main_menu = new Menu("classic");
             this.menus.main_menu.items.push(new Item("carmilla_laura"));
             this.menus.main_menu.items.push(new Item("carmilla_carmilla"));    
+            this.menus.main_menu.items.push(new Item("eb_villa_misteriosa"));  
             this.menus.main_menu.items.push(new Item("eb_piramide_della_morte"));            
         },
         Click: function(item){
