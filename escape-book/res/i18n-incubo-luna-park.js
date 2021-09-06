@@ -1,6 +1,6 @@
 const messages = {
     it: {        
-        titolo: "La piramide della morte. Escape book",
+        titolo: "Incubo al Luna Park. Escape book",
         scheda: "Scheda di gioco",
         clessidre: "Clessidre",
         paragrafi: "Paragrafi",
@@ -11,10 +11,10 @@ const messages = {
         messaggi: {
             benvenuto: "Benvenuto",
             new_game_confirm: "Sei sicuro di voler iniziare una nova partita? Si cancelleranno le statistiche correnti.",
-            go_to_5000: "Vai al 5000.",
+            go_to_1111: "Vai al 1111.",
         },        
-        url_amazon: `https://www.amazon.it/piramide-della-morte-Escape-book/dp/8856675978?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=la+piramide+della+morte&qid=1627477130&sr=8-1&linkCode=ll1&tag=migio21-21&linkId=179673c9dd2b9b3c7bf51f986006336c&language=it_IT&ref_=as_li_ss_tl`,
-        link_amazon: `<a target="_blank" href="@:url_amazon">La piramide della morte. Escape book</a>`,
+        url_amazon: `https://www.amazon.it/Incubo-luna-park-Escape-book/dp/8856674416?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=incubo+al+luna+park&qid=1630957069&sr=8-1&linkCode=ll1&tag=migio21-21&linkId=0ae7351f5b327a03ec3d5e47c6012cfb&language=it_IT&ref_=as_li_ss_tl`,
+        link_amazon: `<a target="_blank" href="@:url_amazon">Incubo al Luna Park. Escape book</a>`,
         footer: {
             back_to_menu: "Lista schede disponibili",
             credits: "Copyrights & Credits",
