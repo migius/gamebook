@@ -1,6 +1,6 @@
 const messages = {
     it: {        
-        titolo: "La piramide della morte. Escape book",
+        titolo: "La prigione degli orrori. Escape book",
         scheda: "Scheda di gioco",
         clessidre: "Clessidre",
         paragrafi: "Paragrafi",
@@ -13,8 +13,8 @@ const messages = {
             new_game_confirm: "Sei sicuro di voler iniziare una nova partita? Si cancelleranno le statistiche correnti.",
             go_to_6666: "Vai al 6666.",
         },        
-        url_amazon: `https://www.amazon.it/piramide-della-morte-Escape-book/dp/8856675978?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=la+piramide+della+morte&qid=1627477130&sr=8-1&linkCode=ll1&tag=migio21-21&linkId=179673c9dd2b9b3c7bf51f986006336c&language=it_IT&ref_=as_li_ss_tl`,
-        link_amazon: `<a target="_blank" href="@:url_amazon">La piramide della morte. Escape book</a>`,
+        url_amazon: `https://www.amazon.it/Escape-fortezza-abbandonata-Simone-Laudiero/dp/8856670127?pd_rd_w=jx0vv&pf_rd_p=14da66b8-3d0a-4c32-861f-0af2a8073f6b&pf_rd_r=HEE5W12T9ACPCW4J235B&pd_rd_r=cdb22194-54c3-47cd-a9fc-678fc29f353e&pd_rd_wg=I5SuC&pd_rd_i=8856670127&psc=1&linkCode=ll1&tag=migio21-21&linkId=3085af65fdf605a0c8510bccfb7e31e9&language=it_IT&ref_=as_li_ss_tl`,
+        link_amazon: `<a target="_blank" href="@:url_amazon">La prigione degli orrori. Escape book</a>`,
         footer: {
             back_to_menu: "Lista schede disponibili",
             credits: "Copyrights & Credits",
