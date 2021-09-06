@@ -14,6 +14,14 @@ const messages = {
                 title: "La Villa Misteriosa. Escape Book #1",
                 url: "escape-book/villa-misteriosa.html?l=it"
             },
+            eb_prigione_degli_orrori: {
+                title: "La prigione degli orrori. Escape Book #2",
+                url: "escape-book/prigione-degli-orrori.html?l=it"
+            },
+            eb_incubo_luna_park: {
+                title: "Incubo al luna park. Escape Book #3",
+                url: "escape-book/incubo-luna-park.html?l=it"
+            },
             eb_piramide_della_morte: {
                 title: "La piramide della morte. Escape Book #4",
                 url: "escape-book/piramide-della-morte.html?l=it"
